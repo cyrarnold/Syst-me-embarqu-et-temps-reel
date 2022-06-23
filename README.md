@@ -1,6 +1,5 @@
 En nous inspirant du code du fichier  system.1 implémentons la mise en oeuvre du système en utilisant les threads
 
-
 #include <stdlib.h>
 #include <signal.h>
 #include <stdio.h>
@@ -99,4 +98,3 @@ int main(int argc, char *argv[]){
   }
   fprintf(stderr, "le temps d'execution de tout les threads est %lds \n", count_time-1);
   return 0;
-}
