@@ -63,6 +63,7 @@ int main(int argc, char *argv[]){
     fprintf(stderr, "Signal %d non capture\n", SIGALRM);
   alarm(1);
 
+
   // creation des threads 
   printf("start task iiiiii A %ld\n", count_time);
   for(int i=0; i<4; i++){
