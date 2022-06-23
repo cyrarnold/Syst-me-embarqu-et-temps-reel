@@ -1,4 +1,6 @@
 En nous inspirant du code du fichier  system.1 implémentons la mise en oeuvre du système en utilisant les threads
+
+
 #include <stdlib.h>
 #include <signal.h>
 #include <stdio.h>
